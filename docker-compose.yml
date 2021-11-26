@@ -1,0 +1,7 @@
+version: "3.9"
+services:
+  metadata:
+    build:
+      dockerfile: Dockerfile.multistage
+    ports:
+      - "8080:8080"

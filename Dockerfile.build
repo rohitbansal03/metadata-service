@@ -1,0 +1,11 @@
+FROM maven:3.8.4-jdk-11
+WORKDIR /workspace/app
+
+COPY pom.xml pom.xml
+RUN mvn dependency:go-offline -B
+
+COPY src src
+RUN mvn package -DskipTests
+
+EXPOSE 8080
+ENTRYPOINT ["java", "-jar", "-Xms256m", "-Xmx512m", "target/metadata-service.jar"]
