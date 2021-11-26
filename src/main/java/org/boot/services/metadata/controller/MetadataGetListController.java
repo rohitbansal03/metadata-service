@@ -1,5 +1,10 @@
-package org.boot.services.metadata;
+package org.boot.services.metadata.controller;
 
+import org.boot.services.metadata.model.Metadata;
+import org.boot.services.metadata.model.MetadataView;
+import org.boot.services.metadata.model.QueryCriteria;
+import org.boot.services.metadata.repository.AnyObjectRepository;
+import org.boot.services.metadata.repository.MetadataRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
@@ -52,7 +57,7 @@ public class MetadataGetListController {
                 .sort(sortBy, sortOrder)
                 .page(offset, limit);
 
-        return anyObjectRepository.find(config.build(),Metadata.class).map(MetadataView::new).collect(Collectors.toList());
+        return anyObjectRepository.find(config.build(), Metadata.class).map(MetadataView::new).collect(Collectors.toList());
     }
 
 

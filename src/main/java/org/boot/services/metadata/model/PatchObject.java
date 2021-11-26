@@ -1,4 +1,4 @@
-package org.boot.services.metadata;
+package org.boot.services.metadata.model;
 
 import org.springframework.data.mongodb.core.query.Update;
 import org.springframework.util.StringUtils;

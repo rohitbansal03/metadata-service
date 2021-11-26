@@ -1,4 +1,4 @@
-package org.boot.services.metadata;
+package org.boot.services.metadata.config;
 
 import com.github.fakemongo.Fongo;
 import com.mongodb.MongoClient;

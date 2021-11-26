@@ -1,4 +1,4 @@
-package org.boot.services.metadata;
+package org.boot.services.metadata.model;
 
 import org.bson.types.ObjectId;
 import org.springframework.data.annotation.Id;

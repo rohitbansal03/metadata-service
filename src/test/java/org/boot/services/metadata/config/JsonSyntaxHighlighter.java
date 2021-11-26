@@ -1,4 +1,4 @@
-package org.boot.services.metadata;
+package org.boot.services.metadata.config;
 
 import org.springframework.http.MediaType;
 import org.springframework.restdocs.operation.preprocess.ContentModifier;

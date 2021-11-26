@@ -1,5 +1,8 @@
-package org.boot.services.metadata;
+package org.boot.services.metadata.controller;
 
+import org.boot.services.metadata.config.MetadataBuilder;
+import org.boot.services.metadata.model.Metadata;
+import org.boot.services.metadata.repository.MetadataRepository;
 import org.junit.Before;
 import org.junit.Test;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -14,7 +17,7 @@ import static org.springframework.test.web.servlet.request.MockMvcRequestBuilder
 import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.post;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.*;
 
-public class MetadataPostControllerTest extends BaseControllerTest{
+public class MetadataPostControllerTest extends BaseControllerTest {
 
     @Autowired
     MetadataRepository repository;

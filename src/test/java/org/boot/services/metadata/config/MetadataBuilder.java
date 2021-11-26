@@ -1,7 +1,8 @@
-package org.boot.services.metadata;
+package org.boot.services.metadata.config;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
+import org.boot.services.metadata.model.Metadata;
 
 import java.time.Clock;
 import java.util.Arrays;

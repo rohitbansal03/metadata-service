@@ -1,5 +1,9 @@
-package org.boot.services.metadata;
+package org.boot.services.metadata.controller;
 
+import org.boot.services.metadata.repository.AnyObjectRepository;
+import org.boot.services.metadata.model.Metadata;
+import org.boot.services.metadata.repository.MetadataRepository;
+import org.boot.services.metadata.model.PatchObject;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.validation.BindingResult;
 import org.springframework.web.bind.annotation.PathVariable;

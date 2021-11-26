@@ -1,6 +1,7 @@
-package org.boot.services.metadata;
+package org.boot.services.metadata.controller;
 
 import com.github.fakemongo.junit.FongoRule;
+import org.boot.services.metadata.config.JsonSyntaxHighlighter;
 import org.junit.Rule;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;

@@ -1,4 +1,4 @@
-package org.boot.services.metadata;
+package org.boot.services.metadata.repository;
 
 import com.mongodb.WriteResult;
 import com.mongodb.client.result.UpdateResult;

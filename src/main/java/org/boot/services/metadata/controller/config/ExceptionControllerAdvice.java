@@ -1,5 +1,6 @@
-package org.boot.services.metadata;
+package org.boot.services.metadata.controller.config;
 
+import org.boot.services.metadata.controller.ObjectNotFoundException;
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.ControllerAdvice;
 import org.springframework.web.bind.annotation.ExceptionHandler;

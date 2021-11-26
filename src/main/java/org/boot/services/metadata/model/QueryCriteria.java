@@ -1,4 +1,4 @@
-package org.boot.services.metadata;
+package org.boot.services.metadata.model;
 
 import org.springframework.data.domain.Sort;
 import org.springframework.data.mongodb.core.query.Criteria;

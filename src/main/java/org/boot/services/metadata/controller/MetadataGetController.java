@@ -1,5 +1,8 @@
-package org.boot.services.metadata;
+package org.boot.services.metadata.controller;
 
+import org.boot.services.metadata.model.Metadata;
+import org.boot.services.metadata.repository.MetadataRepository;
+import org.boot.services.metadata.model.MetadataView;
 import org.bson.types.ObjectId;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;

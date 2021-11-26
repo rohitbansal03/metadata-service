@@ -1,6 +1,7 @@
-package org.boot.services.metadata;
+package org.boot.services.metadata.model;
 
 import com.fasterxml.jackson.annotation.JsonInclude;
+import org.boot.services.metadata.model.Metadata;
 
 import java.time.LocalDateTime;
 import java.util.List;
